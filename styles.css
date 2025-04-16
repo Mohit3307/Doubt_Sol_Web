@@ -1,0 +1,129 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #0066cc;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header .logo h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* Search Bar */
+.search-bar {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.search-bar input {
+  width: 60%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Main Content */
+.main-content {
+  margin: 30px 10%;
+}
+
+.question-feed {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.question {
+  border-bottom: 1px solid #ddd;
+  padding: 15px 0;
+}
+
+.question h3 a {
+  color: #0066cc;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.question p {
+  font-size: 14px;
+  color: #555;
+}
+
+.question .subject {
+  font-weight: bold;
+}
+
+.question .answers {
+  color: #0066cc;
+}
+
+/* Ask Question Button */
+.ask-question {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.ask-button {
+  padding: 12px 30px;
+  background-color: #0066cc;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.ask-button:hover {
+  background-color: #005bb5;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+  margin-top: 40px;
+}
